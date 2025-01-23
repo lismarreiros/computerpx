@@ -1,0 +1,165 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f0ef
+}
+
+.computer {
+  width: 120px;
+  height: 120px;
+  background-color: #cdc1b9;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tela {
+  width: 85px;
+  height: 90px;
+  background-color: #3a322d
+}
+
+.side, .side1, .side2, .side3 {
+  width: 15px;
+  background-color:  #a5978e;
+  position: absolute;
+}
+
+.side {
+  height: 154px;
+  right: -14px;
+  top: 0
+}
+
+.side1 {
+  height: 138px;
+  top: 13%;
+  right: -29px;
+}
+
+.side2 {
+  height: 129px;
+  top: 21%;
+  right: -44px;
+}
+
+.side3 {
+  height: 120px;
+  top: 28%;
+  right: -59px;
+}
+
+.pixel1 {
+  width: 40px;
+  height: 15px;
+  background-color: #3fd8b2;
+  position: absolute;
+  top: 20%;
+  left: 29%
+}
+
+.pixel2 {
+  width: 13px;
+  height: 13px;
+  background-color: #3fd8b2;
+  position: absolute;
+  top: 40%;
+  left: 29%;
+  animation: blink 1.5s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+.pink-button {
+  width: 14.5px;
+  height: 15px;
+  background-color: #de5595;
+  position: absolute;
+  bottom: 0;
+  right: 14.3%
+}
+
+.base {
+  width: 140px;
+  height: 17px;
+  background-color: #70665d;
+  position: absolute;
+  bottom: -16px;
+  right: -35px
+}
+
+.base1 {
+  width: 55px;
+  height: 17px;
+  background-color: #413934;
+  position: absolute;
+  left: 13%
+}
+
+.base2 {
+  width: 127px;
+  height: 18px;
+  background-color: #cec3bb;
+  position: absolute;
+  bottom: -18px;
+  left: -22px;
+}
+
+.teclado {
+  width: 199px;
+  height: 16px;
+  background-color: #a5978e;
+  position: absolute;
+  bottom: -50px;
+  left: -20px 
+}
+
+.tc1, .tc2, .tc3, .tc4 {
+  width: 16px;
+  height: 16px;
+  background-color: #cec3bb;
+  position: absolute;
+}
+
+.tc2 {
+  left: 32px
+}
+
+.tc3 {
+  left: 75px;
+}
+
+.tc4 {
+  left: 106px;
+}
+
+.shadow {
+  width: 90px;
+  height: 16px;
+  background-color: #d7d4d2;
+  position: absolute;
+  right: -90px; 
+  bottom: 0
+}
+
+.contrast {
+  width: 16px;
+  height: 16px;
+  background-color: #f2f0ef;
+  position: absolute;
+  right: 16px
+}

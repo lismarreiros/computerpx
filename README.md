@@ -16,7 +16,7 @@ A proposta foi criar um computador estilo retrô, blocado pixel a pixel, utiliza
 ## 💡 Como rodar o projeto  
 1. Clone o repositório:  
 ```bash  
-git clone https://github.com/seu-usuario/seu-repositorio.git  
+git clone https://github.com/lismarreiros/computerpx.git  
 ```  
 2. Abra o arquivo `index.html` no seu navegador favorito.  
 
